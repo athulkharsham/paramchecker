@@ -13,7 +13,7 @@ TEST(VitalsTest, RESPRATE) {
     ASSERT_EQ(true, vitalsAreOkForRespRate(40));
 }
 
-TEST(VitalsTest, RESPRATE) {
+TEST(VitalsTest, RESPRATE2) {
     ASSERT_EQ(false,alsAreOkForRespRate(20));
 }
                                         
