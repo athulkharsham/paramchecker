@@ -9,6 +9,14 @@ TEST(VitalsTest, SPO2) {
     ASSERT_EQ(false, vitalsAreOkForSpo2(40));
 }
 
+TEST(VitalsTest, RESPRATE) {
+    ASSERT_EQ(true, vitalsAreOkForRespRate(40));
+}
+
+TEST(VitalsTest, RESPRATE) {
+    ASSERT_EQ(false,alsAreOkForRespRate(20;
+}
+                                        
 int main(int argc, char **argv) {
     testing::InitGoogleTest(&argc, argv);
     return RUN_ALL_TESTS();
