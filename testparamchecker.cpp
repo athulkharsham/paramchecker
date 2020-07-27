@@ -14,7 +14,7 @@ TEST(VitalsTest, RESPRATE) {
 }
 
 TEST(VitalsTest, RESPRATE2) {
-    ASSERT_EQ(false,alsAreOkForRespRate(20));
+    ASSERT_EQ(false,vitalsAreOkForRespRate(20));
 }
                                         
 int main(int argc, char **argv) {
