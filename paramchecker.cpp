@@ -24,15 +24,15 @@ bool ifVitalLimitsOk(float value, float minValue, float maxValue)
            ifVitalLimitsOk(respRate,resprate_low,resprate_high) );
 }
 */
-bool isVitalsOkBpm(value)
+bool isVitalsOkBpm(float value)
 {
   return ( ifVitalLimitsOk(value, bpm_low, bpm_high) );
 }
-bool isVitalsOkSpo2(value)
+bool isVitalsOkSpo2(float value)
 {
   return ( ifVitalLimitsOk(spo2,sp02_low,sp02_high)) );
 }
-bool isVitalsOkResprate(value)
+bool isVitalsOkResprate(float value)
 {
   return ( ifVitalLimitsOk(respRate,resprate_low,resprate_high) );
 }
