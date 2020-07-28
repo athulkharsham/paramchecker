@@ -2,7 +2,7 @@
 #define bpm_low 70
 #define bpm_high 150
 #define sp02_low 80
-#define sp02_low 100
+#define sp02_high 100
 #define resprate_low 30
 #define resprate_high 60
 
