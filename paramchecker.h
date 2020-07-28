@@ -1,3 +1,2 @@
-bool vitalsAreOkForBpm(float bpm);
-bool vitalsAreOkForSpo2(float spo2);
-bool vitalsAreOkForRespRate(float respRate);
+bool ifVitalLimitsOk(float value, float minValue, float maxValue);
+bool ifVitalsOK(float bpm, float spo2, float respRate);
