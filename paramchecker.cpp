@@ -30,9 +30,9 @@ bool isVitalsOkBpm(float value)
 }
 bool isVitalsOkSpo2(float value)
 {
-  return ( ifVitalLimitsOk(spo2,sp02_low,sp02_high)) );
+  return ( ifVitalLimitsOk(value,sp02_low,sp02_high)) );
 }
 bool isVitalsOkResprate(float value)
 {
-  return ( ifVitalLimitsOk(respRate,resprate_low,resprate_high) );
+  return ( ifVitalLimitsOk(value,resprate_low,resprate_high) );
 }
