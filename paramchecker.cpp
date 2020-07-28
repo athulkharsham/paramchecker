@@ -10,11 +10,11 @@ bool ifVitalLimitsOk(float value, float minValue, float maxValue)
 {
   bool retVal = true;
   
-  if( (value < minValue) || (maxValue > minValue) )
+  if( (value < minValue) || (value > minValue) )
   {
-    retValue = false;
+    retVal = false;
   }
-  
+  return retVal;
 }
 
 bool ifVitalsOK(float bpm, float spo2, float respRate)
