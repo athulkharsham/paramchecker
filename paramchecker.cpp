@@ -6,6 +6,16 @@
 #define resprate_low 30
 #define resprate_high 60
 
+typedef   bool (*Operation)(float a);
+
+typedef struct
+{
+  Operation  vitalChecker; // funtion pointer 
+}vitals
+vitals vitals_obj = {isVitalsOkBpm,
+                     isVitalsOkSpo2,
+                     isVitalsOkResprate
+                     };
 bool ifVitalLimitsOk(float value, float minValue, float maxValue)
 {
   bool retVal = true;
